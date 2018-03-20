@@ -1,0 +1,21 @@
+PODS:
+  - SwiftState (4.1.0)
+
+DEPENDENCIES:
+  - SwiftState (from `https://github.com/ReactKit/SwiftState.git`)
+
+EXTERNAL SOURCES:
+  SwiftState:
+    :git: https://github.com/ReactKit/SwiftState.git
+
+CHECKOUT OPTIONS:
+  SwiftState:
+    :commit: 55418070f9dcb289e7e8d9d6c463b1a8c3bac228
+    :git: https://github.com/ReactKit/SwiftState.git
+
+SPEC CHECKSUMS:
+  SwiftState: eb4f3ca252feac9ec26235cf4374f91e0560e3a1
+
+PODFILE CHECKSUM: 2890bde2dabe7c83c32dab17991e23cf3e829e38
+
+COCOAPODS: 1.4.0

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3429E39459165DCC2087F3FE /* Pods_FiniteStateMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3303DC7800CB09CA128439DA /* Pods_FiniteStateMachine.framework */; };
 		842277F120606BA400A47268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842277F020606BA400A47268 /* AppDelegate.swift */; };
 		842277F320606BA400A47268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842277F220606BA400A47268 /* ViewController.swift */; };
 		842277F620606BA400A47268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842277F420606BA400A47268 /* Main.storyboard */; };
 		842277F820606BA400A47268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842277F720606BA400A47268 /* Assets.xcassets */; };
 		842277FB20606BA400A47268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842277F920606BA400A47268 /* LaunchScreen.storyboard */; };
 		8422780620606BA400A47268 /* FiniteStateMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422780520606BA400A47268 /* FiniteStateMachineTests.swift */; };
+		F6F051F4F34252539E52D09D /* Pods_FiniteStateMachineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CCDDF76AB1AF73A272DD85 /* Pods_FiniteStateMachineTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17CCDDF76AB1AF73A272DD85 /* Pods_FiniteStateMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiniteStateMachineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		196BFA058158C046BAC8B1EF /* Pods-FiniteStateMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiniteStateMachine.release.xcconfig"; path = "Pods/Target Support Files/Pods-FiniteStateMachine/Pods-FiniteStateMachine.release.xcconfig"; sourceTree = "<group>"; };
+		3303DC7800CB09CA128439DA /* Pods_FiniteStateMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiniteStateMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842277ED20606BA400A47268 /* FiniteStateMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiniteStateMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842277F020606BA400A47268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842277F220606BA400A47268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		8422780120606BA400A47268 /* FiniteStateMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiniteStateMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8422780520606BA400A47268 /* FiniteStateMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiniteStateMachineTests.swift; sourceTree = "<group>"; };
 		8422780720606BA400A47268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6126964578BC36C9793412 /* Pods-FiniteStateMachineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiniteStateMachineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FiniteStateMachineTests/Pods-FiniteStateMachineTests.release.xcconfig"; sourceTree = "<group>"; };
+		C490FB6D4CD47BCDA5DE828D /* Pods-FiniteStateMachineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiniteStateMachineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FiniteStateMachineTests/Pods-FiniteStateMachineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D08CC6EA23AD6A60E10FAB75 /* Pods-FiniteStateMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiniteStateMachine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FiniteStateMachine/Pods-FiniteStateMachine.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3429E39459165DCC2087F3FE /* Pods_FiniteStateMachine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F051F4F34252539E52D09D /* Pods_FiniteStateMachineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25240A6F82784BE8BB92EAA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D08CC6EA23AD6A60E10FAB75 /* Pods-FiniteStateMachine.debug.xcconfig */,
+				196BFA058158C046BAC8B1EF /* Pods-FiniteStateMachine.release.xcconfig */,
+				C490FB6D4CD47BCDA5DE828D /* Pods-FiniteStateMachineTests.debug.xcconfig */,
+				BA6126964578BC36C9793412 /* Pods-FiniteStateMachineTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		842277E420606BA400A47268 = {
 			isa = PBXGroup;
 			children = (
 				842277EF20606BA400A47268 /* FiniteStateMachine */,
 				8422780420606BA400A47268 /* FiniteStateMachineTests */,
 				842277EE20606BA400A47268 /* Products */,
+				25240A6F82784BE8BB92EAA8 /* Pods */,
+				F6EA9E090469204E257A53D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = FiniteStateMachineTests;
 			sourceTree = "<group>";
 		};
+		F6EA9E090469204E257A53D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3303DC7800CB09CA128439DA /* Pods_FiniteStateMachine.framework */,
+				17CCDDF76AB1AF73A272DD85 /* Pods_FiniteStateMachineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8422780A20606BA400A47268 /* Build configuration list for PBXNativeTarget "FiniteStateMachine" */;
 			buildPhases = (
+				BC2203B072EF1B7B1DFD29FA /* [CP] Check Pods Manifest.lock */,
 				842277E920606BA400A47268 /* Sources */,
 				842277EA20606BA400A47268 /* Frameworks */,
 				842277EB20606BA400A47268 /* Resources */,
+				2B37C00FB7FC6CAE9B09FCA5 /* [CP] Embed Pods Frameworks */,
+				215B45A2712D007CB1E09BC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8422780D20606BA400A47268 /* Build configuration list for PBXNativeTarget "FiniteStateMachineTests" */;
 			buildPhases = (
+				39F25A4F31E70055957E1439 /* [CP] Check Pods Manifest.lock */,
 				842277FD20606BA400A47268 /* Sources */,
 				842277FE20606BA400A47268 /* Frameworks */,
 				842277FF20606BA400A47268 /* Resources */,
+				CBDF48BF6BB8E4317B3AE501 /* [CP] Embed Pods Frameworks */,
+				8F62D4F101AB99789A09A8E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,108 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		215B45A2712D007CB1E09BC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiniteStateMachine/Pods-FiniteStateMachine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B37C00FB7FC6CAE9B09FCA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FiniteStateMachine/Pods-FiniteStateMachine-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftState/SwiftState.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftState.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiniteStateMachine/Pods-FiniteStateMachine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F25A4F31E70055957E1439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FiniteStateMachineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F62D4F101AB99789A09A8E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiniteStateMachineTests/Pods-FiniteStateMachineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2203B072EF1B7B1DFD29FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FiniteStateMachine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDF48BF6BB8E4317B3AE501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FiniteStateMachineTests/Pods-FiniteStateMachineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		842277E920606BA400A47268 /* Sources */ = {
@@ -351,6 +491,7 @@
 		};
 		8422780B20606BA400A47268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08CC6EA23AD6A60E10FAB75 /* Pods-FiniteStateMachine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +507,7 @@
 		};
 		8422780C20606BA400A47268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196BFA058158C046BAC8B1EF /* Pods-FiniteStateMachine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +523,7 @@
 		};
 		8422780E20606BA400A47268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C490FB6D4CD47BCDA5DE828D /* Pods-FiniteStateMachineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +541,7 @@
 		};
 		8422780F20606BA400A47268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6126964578BC36C9793412 /* Pods-FiniteStateMachineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
